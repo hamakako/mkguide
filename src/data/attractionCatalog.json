@@ -1,0 +1,110 @@
+{
+  "istanbul": [
+    {"name":"ئایاسۆفیا","query":"Hagia Sophia Istanbul"},{"name":"مزگەوتی شین","query":"Blue Mosque Istanbul"},{"name":"کۆشکی تۆپکاپی","query":"Topkapi Palace Istanbul"},{"name":"ژێرزەمینی بازیلیکا","query":"Basilica Cistern Istanbul"},{"name":"بازاڕی گەورە","query":"Grand Bazaar Istanbul"},{"name":"تاوەری گالاتا","query":"Galata Tower Istanbul"},{"name":"کۆشکی دۆڵمەباخچە","query":"Dolmabahce Palace Istanbul"},{"name":"کەنداوی بۆسفۆر","query":"Bosphorus Istanbul"},{"name":"مزگەوتی ئۆرتاکۆی","query":"Ortakoy Mosque Istanbul"},{"name":"مزگەوتی سولەیمانیە","query":"Suleymaniye Mosque Istanbul"},{"name":"گەڕەکی بەلات","query":"Balat Istanbul"},{"name":"دوورگەکانی شاژادەکان","query":"Princes Islands Istanbul"},{"name":"ئیستیکلال و تەکسیم","query":"Istiklal Avenue Taksim Istanbul"},{"name":"قەڵای ڕومەلی","query":"Rumeli Fortress Istanbul"},{"name":"گردی چاملیجا","query":"Camlica Hill Istanbul"}
+  ],
+  "ankara": [
+    {"name":"مەزاری ئەتاتورک","query":"Anitkabir Ankara"},{"name":"مۆزەخانەی شارستانییەکانی ئەنادۆڵ","query":"Museum of Anatolian Civilizations Ankara"},{"name":"قەڵای ئەنقەرە","query":"Ankara Castle"},{"name":"مزگەوتی کۆجاتەپە","query":"Kocatepe Mosque Ankara"},{"name":"گەڕەکی حەمامۆنوو","query":"Hamamonu Ankara"},{"name":"گۆلی ئەیمیر","query":"Lake Eymir Ankara"},{"name":"پارکی گەنچلیک","query":"Genclik Park Ankara"},{"name":"تاوەری ئەتاکولە","query":"Atakule Ankara"},{"name":"مزگەوتی حاجی بایرام","query":"Haci Bayram Mosque Ankara"},{"name":"حەمامە ڕۆمانییەکان","query":"Roman Baths Ankara"}
+  ],
+  "diyarbakir": [
+    {"name":"دیوارەکانی ئامەد","query":"Diyarbakir city walls"},{"name":"باغچەکانی هەڤسەل","query":"Hevsel Gardens Diyarbakir"},{"name":"مزگەوتی گەورە","query":"Great Mosque Diyarbakir"},{"name":"پردی دە چاو","query":"Dicle Bridge Diyarbakir"},{"name":"قەڵای زەرزەڤان","query":"Zerzevan Castle"},{"name":"خانی حەسەن پاشا","query":"Hasan Pasha Han Diyarbakir"},{"name":"کڵێسای سورپ گیراگۆس","query":"Surp Giragos Church Diyarbakir"},{"name":"خانی سولۆکلوو","query":"Suluklu Han Diyarbakir"},{"name":"مۆزەخانەی ئامەد","query":"Diyarbakir Archaeology Museum"},{"name":"قەڵای ئامەد","query":"Diyarbakir Fortress"}
+  ],
+  "mardin": [
+    {"name":"ماردینی کۆن","query":"Old Mardin Turkey"},{"name":"دێری دەیرولزەعفەران","query":"Deyrulzafaran Monastery Mardin"},{"name":"مەدرەسەی زنجیریە","query":"Zinciriye Medrese Mardin"},{"name":"مەدرەسەی قاسمیە","query":"Kasimiye Medrese Mardin"},{"name":"مزگەوتی گەورەی ماردین","query":"Great Mosque Mardin"},{"name":"مۆزەخانەی ماردین","query":"Mardin Museum"},{"name":"شاری کۆنی دارا","query":"Dara ancient city Mardin"},{"name":"میدیاتی کۆن","query":"Old Midyat Mardin"},{"name":"دێری مۆر گابریێل","query":"Mor Gabriel Monastery"},{"name":"ساڤور","query":"Savur Mardin"}
+  ],
+  "van": [
+    {"name":"قەڵای وان","query":"Van Castle Turkey"},{"name":"دوورگەی ئەختامار","query":"Akdamar Island Lake Van"},{"name":"گۆلی وان","query":"Lake Van Turkey"},{"name":"مۆزەخانەی وان","query":"Van Museum Turkey"},{"name":"تاڤگەی مورا‌دیە","query":"Muradiye Waterfall Van"},{"name":"قەڵای هۆشاپ","query":"Hosap Castle Van"},{"name":"چاوشتەپە","query":"Cavustepe Van"},{"name":"ماڵی پشیلەی وان","query":"Van Cat House"},{"name":"کەناراوی ئەدرەمیت","query":"Edremit Lake Van"},{"name":"کڵێساکانی ڤارەگ","query":"Varagavank Van"}
+  ],
+  "izmir": [
+    {"name":"کاتژمێری کۆناک","query":"Izmir Clock Tower Konak"},{"name":"بازاڕی کەمەرئالتی","query":"Kemeralti Bazaar Izmir"},{"name":"شاری کۆنی ئەفەسۆس","query":"Ephesus Turkey"},{"name":"قەڵای کادیفەکالە","query":"Kadifekale Izmir"},{"name":"ئاگرۆرای سمیرنا","query":"Agora of Smyrna Izmir"},{"name":"کۆردۆنی ئالسەنجاک","query":"Kordon Alsancak Izmir"},{"name":"ئاسانسۆری مێژوویی","query":"Asansor Izmir"},{"name":"قەڵای چەشمە","query":"Cesme Castle"},{"name":"ئالاچاتی","query":"Alacati Turkey"},{"name":"گوندی شیرینجە","query":"Sirince Turkey"}
+  ],
+  "alanya": [
+    {"name":"قەڵای ئالانیا","query":"Alanya Castle"},{"name":"کەناراوی کلیۆپاترا","query":"Cleopatra Beach Alanya"},{"name":"ئەشکەوتی داملاتاش","query":"Damlatas Cave Alanya"},{"name":"تاوەری سوور","query":"Red Tower Alanya"},{"name":"ڕووباری دیم","query":"Dim River Alanya"},{"name":"دۆڵی ساپادەرە","query":"Sapadere Canyon Alanya"},{"name":"تێلەفریکی ئالانیا","query":"Alanya cable car"},{"name":"کەشتی‌سازیی کۆن","query":"Alanya Shipyard"}
+  ],
+  "bodrum": [
+    {"name":"قەڵای بۆدروم","query":"Bodrum Castle"},{"name":"مۆزەخانەی ژێرئاوی بۆدروم","query":"Bodrum Museum Underwater Archaeology"},{"name":"مارینای بۆدروم","query":"Bodrum Marina"},{"name":"گۆڕی ماوسۆلۆس","query":"Mausoleum at Halicarnassus"},{"name":"ئاشە باییەکانی بۆدروم","query":"Bodrum windmills"},{"name":"یالیکاڤاک مارینا","query":"Yalikavak Marina"},{"name":"گوموشلوک","query":"Gumusluk Bodrum"},{"name":"کەناراوی بیتێز","query":"Bitez Beach Bodrum"}
+  ],
+  "trabzon": [
+    {"name":"ئۆزۆنگۆل","query":"Uzungol Trabzon"},{"name":"دێری سۆمەلا","query":"Sumela Monastery"},{"name":"بۆزتەپە","query":"Boztepe Trabzon"},{"name":"ئایاسۆفیای ترابزۆن","query":"Hagia Sophia Trabzon"},{"name":"کۆشکی ئەتاتورک","query":"Atatürk Mansion Trabzon"},{"name":"گۆلی سێرا","query":"Sera Lake Trabzon"},{"name":"ئەشکەوتی چال","query":"Cal Cave Trabzon"},{"name":"حەمسی‌کۆی","query":"Hamsikoy Trabzon"},{"name":"ئایدەر","query":"Ayder Plateau Rize"},{"name":"قەڵای زیل","query":"Zilkale Rize"}
+  ],
+  "dubai": [
+    {"name":"بورجی خەلیفە","query":"Burj Khalifa Dubai"},{"name":"دوبەی مۆڵ و ئەکواریۆم","query":"Dubai Mall Aquarium"},{"name":"کانیی دوبەی","query":"Dubai Fountain"},{"name":"ئەلفەهیدی","query":"Al Fahidi Dubai"},{"name":"مۆزەخانەی داهاتوو","query":"Museum of the Future Dubai"},{"name":"پالم جومەیرا","query":"Palm Jumeirah Dubai"},{"name":"دوبەی مارینا","query":"Dubai Marina"},{"name":"کەناراوی جومەیرا","query":"Jumeirah Beach Dubai"},{"name":"باخچەی پەنجەمۆر","query":"Dubai Miracle Garden"},{"name":"گڵۆباڵ ڤیلیج","query":"Global Village Dubai"},{"name":"چوارچێوەی دوبەی","query":"Dubai Frame"},{"name":"بازاڕی زێڕ","query":"Dubai Gold Souk"},{"name":"گەشتی بیابان","query":"Dubai desert safari"},{"name":"ئەتڵانتیس ئەکواڤێنچەر","query":"Atlantis Aquaventure Dubai"},{"name":"خور دوبەی","query":"Dubai Creek"}
+  ],
+  "abu-dhabi": [
+    {"name":"مزگەوتی شێخ زاید","query":"Sheikh Zayed Grand Mosque"},{"name":"لۆڤری ئەبو زەبی","query":"Louvre Abu Dhabi"},{"name":"قەسر ئەلوەتەن","query":"Qasr Al Watan Abu Dhabi"},{"name":"فێراری وۆرڵد","query":"Ferrari World Abu Dhabi"},{"name":"دوورگەی یاس","query":"Yas Island Abu Dhabi"},{"name":"کۆرنیشی ئەبو زەبی","query":"Abu Dhabi Corniche"},{"name":"ئیمارات پاڵاس","query":"Emirates Palace Abu Dhabi"},{"name":"وارنەر برۆس وۆرڵد","query":"Warner Bros World Abu Dhabi"},{"name":"دارستانی مانگڕۆڤ","query":"Mangrove National Park Abu Dhabi"},{"name":"گوندی کەلەپووری","query":"Heritage Village Abu Dhabi"}
+  ],
+  "sharjah": [
+    {"name":"مۆزەخانەی شارستانیی ئیسلامی","query":"Sharjah Museum Islamic Civilization"},{"name":"کۆرنیشی ئەلمەجاز","query":"Al Majaz Waterfront Sharjah"},{"name":"بازاڕی شین","query":"Blue Souk Sharjah"},{"name":"دوورگەی ئەلنور","query":"Al Noor Island Sharjah"},{"name":"ژووری باران","query":"Rain Room Sharjah"},{"name":"دڵی شارقە","query":"Heart of Sharjah"},{"name":"ئەکواریۆمی شارقە","query":"Sharjah Aquarium"},{"name":"ملێحە","query":"Mleiha Archaeological Centre"}
+  ],
+  "muscat": [
+    {"name":"مزگەوتی سوڵتان قابووس","query":"Sultan Qaboos Grand Mosque Muscat"},{"name":"بازاڕی مەترەح","query":"Mutrah Souq Muscat"},{"name":"کۆرنیشی مەترەح","query":"Mutrah Corniche"},{"name":"ئۆپێرای شاهانە","query":"Royal Opera House Muscat"},{"name":"کۆشکی ئەلعەلەم","query":"Al Alam Palace Muscat"},{"name":"مۆزەخانەی نیشتمانی","query":"National Museum Oman"},{"name":"کەناراوی قورم","query":"Qurum Beach Muscat"},{"name":"چاڵی بیممە","query":"Bimmah Sinkhole Oman"},{"name":"وادی شاب","query":"Wadi Shab Oman"},{"name":"دوورگەکانی دیمانیات","query":"Daymaniyat Islands Oman"}
+  ],
+  "salalah": [
+    {"name":"وادی دەربات","query":"Wadi Darbat Salalah"},{"name":"کەناراوی موغسەیل","query":"Mughsail Beach Salalah"},{"name":"عەین ڕەزات","query":"Ayn Razat Salalah"},{"name":"مزگەوتی سوڵتان قابووس","query":"Sultan Qaboos Mosque Salalah"},{"name":"ئەلبەلید","query":"Al Baleed Archaeological Park"},{"name":"بازاڕی حەفە","query":"Al Haffa Souq Salalah"},{"name":"کانی جەرزیز","query":"Ayn Jarziz Salalah"},{"name":"میر‌بات","query":"Mirbat Oman"},{"name":"جەبەل سامحان","query":"Jebel Samhan Oman"},{"name":"تاقە","query":"Taqah Oman"}
+  ],
+  "nizwa": [
+    {"name":"قەڵای نیزوا","query":"Nizwa Fort"},{"name":"بازاڕی نیزوا","query":"Nizwa Souq"},{"name":"جەبەل ئەخزەر","query":"Jebel Akhdar Oman"},{"name":"قەڵای بەهلا","query":"Bahla Fort"},{"name":"ئەشکەوتی ئەلهوتە","query":"Al Hoota Cave Oman"},{"name":"میسفەت ئەلعبرێین","query":"Misfat Al Abriyeen"},{"name":"کۆشکی جبرین","query":"Jabreen Castle Oman"},{"name":"بیرکەت ئەلموز","query":"Birkat Al Mouz Oman"}
+  ],
+  "beirut": [
+    {"name":"ڕاووشە","query":"Pigeon Rocks Beirut"},{"name":"ناوەندی بەیروت","query":"Beirut Central District"},{"name":"مۆزەخانەی نیشتمانی","query":"National Museum Beirut"},{"name":"زەیتونای بەی","query":"Zaitunay Bay Beirut"},{"name":"مزگەوتی محەمەد ئەمین","query":"Mohammad Al Amin Mosque Beirut"},{"name":"مۆزەخانەی سورسۆک","query":"Sursock Museum Beirut"},{"name":"گەڕەکی حەمرا","query":"Hamra Beirut"},{"name":"جەمەیزە","query":"Gemmayzeh Beirut"},{"name":"کۆرنیشی بەیروت","query":"Beirut Corniche"},{"name":"بەیت بەیروت","query":"Beit Beirut museum"}
+  ],
+  "byblos": [
+    {"name":"قەڵای جوبەیل","query":"Byblos Castle"},{"name":"بازاڕی کۆنی جوبەیل","query":"Byblos Old Souk"},{"name":"بەندەری کۆن","query":"Byblos old port"},{"name":"مۆزەخانەی فۆسیل","query":"Byblos Fossil Museum"},{"name":"کڵێسای یۆحەنا","query":"Saint John Church Byblos"},{"name":"شانۆی ڕۆمانی","query":"Byblos Roman theatre"},{"name":"کەناراوەکانی جوبەیل","query":"Byblos beach Lebanon"},{"name":"باترون","query":"Batroun Lebanon"}
+  ],
+  "baalbek": [
+    {"name":"پەرستگای باخوس","query":"Temple of Bacchus Baalbek"},{"name":"پەرستگای جوبیتەر","query":"Temple of Jupiter Baalbek"},{"name":"پەرستگای ڤینۆس","query":"Temple of Venus Baalbek"},{"name":"مۆزەخانەی بەعلەبەک","query":"Baalbek Museum"},{"name":"بەردی ژنی دووگیان","query":"Stone of the Pregnant Woman Baalbek"},{"name":"شاری کۆنی عەنجەر","query":"Anjar Lebanon ruins"},{"name":"زەحلە","query":"Zahle Lebanon"},{"name":"شەرابخانەی کسارا","query":"Chateau Ksara Lebanon"}
+  ],
+  "baku": [
+    {"name":"ئیچەر شەهەر","query":"Baku Old City"},{"name":"تاوەرەکانی ئاگر","query":"Flame Towers Baku"},{"name":"بولڤاری باکۆ","query":"Baku Boulevard"},{"name":"ناوەندی حەیدەر عەلییەڤ","query":"Heydar Aliyev Center"},{"name":"تاوەری کچ","query":"Maiden Tower Baku"},{"name":"کۆشکی شیرڤانشا","query":"Palace of the Shirvanshahs"},{"name":"مۆزەخانەی فەرش","query":"Azerbaijan Carpet Museum"},{"name":"پارکی هایلاند","query":"Highland Park Baku"},{"name":"ڤینیزیای بچووک","query":"Little Venice Baku"},{"name":"مزگەوتی بیبی هەیبەت","query":"Bibi-Heybat Mosque"},{"name":"گۆبوستان","query":"Gobustan National Park"},{"name":"پەرستگای ئاگر","query":"Ateshgah Baku"}
+  ],
+  "gabala": [
+    {"name":"توفان داغ","query":"Tufandag Gabala"},{"name":"گۆلی نۆهور","query":"Nohur Lake Gabala"},{"name":"تاڤگەی یەدی گۆزەل","query":"Yeddi Gozel waterfall"},{"name":"ناوەندی قەبەلە","query":"Qabala Azerbaijan"},{"name":"گوندی نیج","query":"Nij Azerbaijan"},{"name":"قەبەلەی کۆن","query":"Chukhur Gabala"},{"name":"ئیسماعیللی","query":"Ismayilli Azerbaijan"},{"name":"شەماخی","query":"Shamakhi Azerbaijan"}
+  ],
+  "shaki": [
+    {"name":"کۆشکی خانی شەکی","query":"Palace of Shaki Khans"},{"name":"کاروانسەرای شەکی","query":"Shaki Caravanserai"},{"name":"کڵێسای کیش","query":"Church of Kish Azerbaijan"},{"name":"قەڵای شەکی","query":"Shaki fortress"},{"name":"ماڵی شەکیخانەکان","query":"House of Shakikhanovs"},{"name":"بازاڕی شەکی","query":"Shaki bazaar"},{"name":"قەڵای گەلەرسەن گۆرەرسەن","query":"Gelersen Gorersen fortress"},{"name":"ئیلیسو","query":"Ilisu Azerbaijan"}
+  ],
+  "tbilisi": [
+    {"name":"قەڵای ناریکالا","query":"Narikala Fortress Tbilisi"},{"name":"حەمامەکانی گوگرد","query":"Abanotubani sulfur baths Tbilisi"},{"name":"پردی ئاشتی","query":"Bridge of Peace Tbilisi"},{"name":"تفلیسی کۆن","query":"Old Tbilisi"},{"name":"کاتێدرای سامیبا","query":"Holy Trinity Cathedral Tbilisi"},{"name":"میندس‌میندا","query":"Mtatsminda Park Tbilisi"},{"name":"دایکی جۆرجیا","query":"Mother of Georgia statue"},{"name":"مێژوونامەی جۆرجیا","query":"Chronicle of Georgia monument"},{"name":"بازاڕی پردی وشک","query":"Dry Bridge Market Tbilisi"},{"name":"متسخێتا","query":"Mtskheta Georgia"}
+  ],
+  "batumi": [
+    {"name":"بولڤاری باتومی","query":"Batumi Boulevard"},{"name":"باخچەی بۆتانی","query":"Batumi Botanical Garden"},{"name":"پەیکەری عەلی و نینۆ","query":"Ali and Nino statue Batumi"},{"name":"گۆڕەپانی ئەورووپا","query":"Europe Square Batumi"},{"name":"پیازای باتومی","query":"Batumi Piazza"},{"name":"تاوەری ئەلفوبێ","query":"Alphabetic Tower Batumi"},{"name":"دۆلفیناریۆم","query":"Batumi Dolphinarium"},{"name":"تێلەفریکی ئارگۆ","query":"Argo cable car Batumi"},{"name":"قەڵای گۆنیو","query":"Gonio Fortress"},{"name":"تاڤگەی مەخونسێتی","query":"Makhuntseti waterfall"}
+  ],
+  "kazbegi": [
+    {"name":"کڵێسای گێرگێتی","query":"Gergeti Trinity Church"},{"name":"دۆڵی ترۆسۆ","query":"Truso Valley Georgia"},{"name":"گەردەنەی داریال","query":"Darial Gorge Georgia"},{"name":"تاڤگەی گڤەلێتی","query":"Gveleti waterfall"},{"name":"گوندی جوتا","query":"Juta Georgia"},{"name":"گوداوری","query":"Gudauri Georgia"},{"name":"قەڵای ئانانوری","query":"Ananuri Fortress"},{"name":"پەیکەری هاوڕێیەتی","query":"Russia Georgia Friendship Monument"}
+  ],
+  "kutaisi": [
+    {"name":"کاتێدرای باگراتی","query":"Bagrati Cathedral"},{"name":"ئەشکەوتی پرۆمێتیۆس","query":"Prometheus Cave Georgia"},{"name":"کانی مارتڤیلی","query":"Martvili Canyon"},{"name":"دێری گێلاتی","query":"Gelati Monastery"},{"name":"دێری مۆتسامێتا","query":"Motsameta Monastery"},{"name":"کانی ئۆکاتسێ","query":"Okatse Canyon"},{"name":"ساتاپلیا","query":"Sataplia Nature Reserve"},{"name":"پردی سپی کوتایسی","query":"White Bridge Kutaisi"}
+  ],
+  "north-iran": [
+    {"name":"ماسال","query":"Masal Gilan Iran"},{"name":"ڕامسەر","query":"Ramsar Iran"},{"name":"گۆلی لاهیجان","query":"Lahijan Lake Iran"},{"name":"ماسولە","query":"Masuleh Iran"},{"name":"بەندەر ئەنسەلی","query":"Bandar Anzali Iran"},{"name":"دارستانی گیسوم","query":"Gisum Forest Iran"},{"name":"باداب سورت","query":"Badab Soort Iran"},{"name":"نەمەک ئابرود","query":"Namak Abrud Iran"},{"name":"قەڵای ڕودخان","query":"Rudkhan Castle"},{"name":"باخچەی عەباس ئاباد","query":"Abbasabad Garden Behshahr"}
+  ],
+  "tehran": [
+    {"name":"کۆشکی گولستان","query":"Golestan Palace Tehran"},{"name":"تاوەری میلاد","query":"Milad Tower"},{"name":"بازاڕی گەورە","query":"Grand Bazaar Tehran"},{"name":"تاوەری ئازادی","query":"Azadi Tower"},{"name":"کۆشکی سەعدئاباد","query":"Saadabad Palace Tehran"},{"name":"کۆشکی نیاڤەران","query":"Niavaran Palace"},{"name":"مۆزەخانەی گەوهەرات","query":"National Jewelry Museum Iran"},{"name":"مۆزەخانەی نیشتمانی","query":"National Museum of Iran"},{"name":"پردی تەبیعەت","query":"Tabiat Bridge Tehran"},{"name":"دەر‌بەند","query":"Darband Tehran"},{"name":"بازاڕی تەجریش","query":"Tajrish Bazaar"},{"name":"مۆزەخانەی هونەری نوێ","query":"Tehran Museum Contemporary Art"}
+  ],
+  "kish": [
+    {"name":"کەناراوی مرجان","query":"Marjan Beach Kish"},{"name":"کەشتی یۆنانی","query":"Greek Ship Kish"},{"name":"شاری ژێر زەوی کاریز","query":"Kariz underground city Kish"},{"name":"شاری کۆنی هەریرە","query":"Harireh ancient city Kish"},{"name":"پارکی دۆلفین","query":"Kish Dolphin Park"},{"name":"ئۆشەن واتەر پارک","query":"Ocean Water Park Kish"},{"name":"دوورگەی کیش","query":"Kish Island Iran"},{"name":"کەناراوەکانی کیش","query":"Kish Island beach"}
+  ],
+  "cairo": [
+    {"name":"پیرامیدەکانی گیزە","query":"Giza pyramids"},{"name":"مۆزەخانەی میسری","query":"Egyptian Museum Cairo"},{"name":"خان ئەلخەلیلی","query":"Khan el-Khalili"},{"name":"مۆزەخانەی گەورەی میسر","query":"Grand Egyptian Museum"},{"name":"قەڵای سەلاحەدین","query":"Cairo Citadel"},{"name":"مزگەوتی محەمەد عەلی","query":"Muhammad Ali Mosque Cairo"},{"name":"قاهیرەی قیبتی","query":"Coptic Cairo"},{"name":"کڵێسای هەڵواسراو","query":"Hanging Church Cairo"},{"name":"پارکی ئەلئەزهەر","query":"Al Azhar Park Cairo"},{"name":"تاوەری قاهیرە","query":"Cairo Tower"},{"name":"سەقارە","query":"Saqqara Egypt"},{"name":"مۆزەخانەی شارستانیی میسر","query":"National Museum Egyptian Civilization"}
+  ],
+  "sharm": [
+    {"name":"کەناراوی نەعەمە","query":"Naama Bay Sharm El Sheikh"},{"name":"پارکی ڕاس محەمەد","query":"Ras Muhammad National Park"},{"name":"بازاڕی کۆن","query":"Old Market Sharm El Sheikh"},{"name":"سۆهۆ سکۆێر","query":"SOHO Square Sharm El Sheikh"},{"name":"دوورگەی تیران","query":"Tiran Island"},{"name":"نەبق","query":"Nabq Protected Area"},{"name":"مزگەوتی ئەلسەحابە","query":"Al Sahaba Mosque Sharm"},{"name":"دەهب","query":"Dahab Egypt"},{"name":"چیاى سینا","query":"Mount Sinai Egypt"},{"name":"کەناراوی شارکس","query":"Sharks Bay Sharm El Sheikh"}
+  ],
+  "hurghada": [
+    {"name":"دوورگەی گیفتون","query":"Giftun Island Hurghada"},{"name":"مارینای غەردەقە","query":"Hurghada Marina"},{"name":"سەهل حەشیش","query":"Sahl Hasheesh"},{"name":"ئەڵگۆنا","query":"El Gouna Egypt"},{"name":"کەناراوی مەحمیە","query":"Mahmya Beach Hurghada"},{"name":"ئەکواریۆمی گەورە","query":"Hurghada Grand Aquarium"},{"name":"مزگەوتی ئەلمینا","query":"El Mina Mosque Hurghada"},{"name":"کڵێسای قیبتی","query":"Coptic Cathedral Hurghada"},{"name":"گەشتی بیابان","query":"Hurghada desert safari"},{"name":"مەلەکردن لە دەریای سوور","query":"Red Sea snorkeling Hurghada"}
+  ],
+  "luxor": [
+    {"name":"پەرستگای کەرنەک","query":"Karnak Temple"},{"name":"دۆڵی پاشاکان","query":"Valley of the Kings"},{"name":"پەرستگای لوکسۆر","query":"Luxor Temple"},{"name":"پەرستگای حەتشێپسوت","query":"Mortuary Temple Hatshepsut"},{"name":"پەیکەرەکانی مێمنۆن","query":"Colossi of Memnon"},{"name":"مۆزەخانەی لوکسۆر","query":"Luxor Museum"},{"name":"مەدینەت هابو","query":"Medinet Habu"},{"name":"دۆڵی شاژنەکان","query":"Valley of the Queens"},{"name":"باڵۆنی ئاسمانی","query":"Luxor hot air balloon"},{"name":"پەرستگای دێندەرا","query":"Dendera Temple"}
+  ],
+  "tunis": [
+    {"name":"مەدینەی تونس","query":"Medina of Tunis"},{"name":"مۆزەخانەی باردۆ","query":"Bardo National Museum"},{"name":"کارتاج","query":"Carthage Tunisia ruins"},{"name":"سیدی بوسعید","query":"Sidi Bou Said"},{"name":"مزگەوتی زەیتونە","query":"Al-Zaytuna Mosque"},{"name":"شەقامی حەبیب بورقیبە","query":"Avenue Habib Bourguiba"},{"name":"گردی بیرسا","query":"Byrsa Hill Carthage"},{"name":"لە مارسا","query":"La Marsa Tunisia"},{"name":"پارکی بیلفیدێر","query":"Belvedere Park Tunis"},{"name":"دار بەن عەبدوڵڵا","query":"Dar Ben Abdallah Museum"}
+  ],
+  "sousse": [
+    {"name":"ڕیباتی سوسە","query":"Ribat of Sousse"},{"name":"مەدینەی سوسە","query":"Medina of Sousse"},{"name":"پۆرت ئەلکەنتاوی","query":"Port El Kantaoui"},{"name":"مۆزەخانەی شوێنەوار","query":"Sousse Archaeological Museum"},{"name":"مزگەوتی گەورە","query":"Great Mosque of Sousse"},{"name":"کەناراوی بوجەعفەر","query":"Boujaafar Sousse Tunisia"},{"name":"ئەشکەوتە گۆڕەکان","query":"Catacombs of Sousse"},{"name":"مۆناستیر","query":"Monastir Tunisia Ribat"}
+  ],
+  "hammamet": [
+    {"name":"مەدینەی حەمامەت","query":"Medina of Hammamet"},{"name":"یاسمین حەمامەت","query":"Yasmine Hammamet"},{"name":"کەناراوی حەمامەت","query":"Hammamet Beach Tunisia"},{"name":"قەڵای حەمامەت","query":"Kasbah Hammamet"},{"name":"کارتاج لەند","query":"Carthage Land Hammamet"},{"name":"ڤێلای جورج سەباستیان","query":"George Sebastian Villa Hammamet"},{"name":"نابول","query":"Nabeul Tunisia"},{"name":"پارکی فریگیا","query":"Friguia Park Tunisia"}
+  ],
+  "djerba": [
+    {"name":"حومەت ئەلسوق","query":"Houmt Souk Djerba"},{"name":"کەناراوی سیدی مەحرەز","query":"Sidi Mahrez Beach Djerba"},{"name":"گوندی گەلالە","query":"Guellala Djerba"},{"name":"کەنیشتی ئەلغەریبە","query":"El Ghriba Synagogue"},{"name":"جەربەهود","query":"Djerbahood"},{"name":"قەڵای بۆرج ئەلکەبیر","query":"Borj El Kebir Djerba"},{"name":"لاگۆنی جەربە","query":"Djerba lagoon"},{"name":"میدوون","query":"Midoun Djerba"},{"name":"پارکی تیمساح","query":"Djerba Explore crocodile farm"},{"name":"ئەجیم","query":"Ajim Djerba"}
+  ]
+}

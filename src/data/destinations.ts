@@ -1,3 +1,6 @@
+import attractionCatalog from './attractionCatalog.json'
+import attractionImages from './attractionImages.json'
+
 export type Tag = 'خێزان' | 'دوو کەسی' | 'بازاڕکردن' | 'سروشت' | 'مێژوو' | 'کەناراو' | 'پزیشکی' | 'بازرگانی' | 'ئابووری' | 'لوکس'
 
 export type Attraction = {
@@ -12,6 +15,9 @@ export type Attraction = {
   ticketNote: string
   highlights: string[]
   tips: string[]
+  photoCredit: string
+  photoLicense: string
+  photoSource: string
 }
 
 export type City = {
@@ -106,22 +112,30 @@ const mapLink = (city: string, place: string) => `https://www.google.com/maps/se
 
 export const cities: City[] = seeds.map((s, index) => {
   const [slug, name, countrySlug, overview, tags, sights, nearby, season] = s
-  const attractions = sights.map((place, placeIndex) => ({
+  const catalog = (attractionCatalog as Record<string, { name: string; query: string }[]>)[slug] ?? sights.map(place => ({ name: place, query: `${place} ${name}` }))
+  const images = attractionImages as Record<string, { url: string; source: string; author: string; license: string }>
+  const attractions = catalog.map((item, placeIndex) => {
+    const place = item.name
+    const photo = images[item.query]
+    return ({
     slug: `sight-${placeIndex + 1}`,
     name: place,
     description: `یەکێک لە شوێنە هەرە ناسراوەکانی ${name}؛ گونجاوە بۆ وێنەگرتن و ناسینی ڕۆحی شارەکە.`,
     longDescription: `${place} یەکێکە لە هەڵبژاردە سەرەکییەکانی گەشت لە ${name}. ئەم شوێنە دەتوانێت وێنەیەکی نزیکتر لە مێژوو، کەلتوور و شێوازی ژیانی ناوچەکە پیشانت بدات. کاتێکی ئارام بۆ سەیرکردن، وێنەگرتن و ناسینی وردەکارییەکان دابنێ؛ بە تایبەتی ئەگەر لەگەڵ خێزان یان بۆ یەکەم جار سەردانی شارەکە دەکەیت.`,
     duration: placeIndex === 1 ? '١–٢ کاتژمێر' : '٢–٣ کاتژمێر',
-    image: photos[(index + placeIndex * 3) % photos.length],
-    map: mapLink(name, place),
+    image: photo?.url ?? photos[(index + placeIndex * 3) % photos.length],
+    map: mapLink(name, item.query),
     bestVisitTime: placeIndex === 2 ? 'دوای نیوەڕۆ تا پێش خۆرئاوابوون' : 'بەیانی زوو، پێش زۆربوونی سەردانکەران',
     ticketNote: placeIndex === 1 ? 'نرخ و کاتی چوونەژوورەوە دەگۆڕێت؛ پێش چوون بپشکنە.' : 'هەندێک بەش خۆڕاییە و هەندێک چالاکی کرێی تایبەتی هەیە.',
     highlights: ['باشترین گۆشەکان بۆ وێنەگرتن', `ناسینی مێژوو و ڕۆحی ${name}`, 'کاتێکی ئارام بۆ گەشت و پشوودان'],
     tips: ['پێڵاوی ئاسوودە لەبەر بکە.', 'ئاو و پارەی بچووک لەگەڵت بێت.', 'پێش چوون کاتی کارکردن بپشکنە.'],
-  }))
+    photoCredit: photo?.author ?? 'Wikimedia Commons',
+    photoLicense: photo?.license ?? 'Wikimedia Commons',
+    photoSource: photo?.source ?? 'https://commons.wikimedia.org',
+  })})
   return {
     slug, name, countrySlug, country: countryName(countrySlug), overview, tags,
-    hero: photos[index % photos.length], attractions, nearby,
+    hero: attractions[0]?.image ?? photos[index % photos.length], attractions, nearby,
     bestTime: season ?? 'بەهار و پاییز؛ کەشەکە خۆشتر و جوڵە کەمترە.',
     food: `خواردنی ناوخۆیی ${name} تاقی بکەرەوە و لە شوێنە پڕمشترییەکان نرخ بپرسە پێش داواکردن.`,
     transport: 'بۆ ناو شار پاس و تاکسیی فەرمی بەکاربهێنە؛ بۆ گەشتی دەرەوەی شار ئۆتۆمبێلی تایبەت ئاسانترە.',
